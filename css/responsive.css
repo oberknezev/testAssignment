@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1200px) {
+    .headerTop {
+        background: url("../img/pen.jpg") no-repeat 50% 80%;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .headerTop {
+        background: url("../img/pen.jpg") no-repeat 54% 80%;
+        background-size: 37%;
+    }
+    .logo {
+        width: 33.33%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .topBox {
+        width: 66.66%;
+        text-align: center;
+        font-size: 6em;
+        padding: 10px 0;
+    }
+    .titleTop {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headerTop {
+        background: url("../img/pen.jpg") no-repeat 54% 80%;
+        background-size: 37%;
+    }
+    .logo {
+        width: 33.33%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .topBox {
+        width: 66.66%;
+        text-align: center;
+        font-size: 4em;
+        padding: 10px 0;
+    }
+    .titleTop {
+        padding-top: 15px;
+    }
+}

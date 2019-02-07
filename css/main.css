@@ -22,24 +22,27 @@ a, a:hover, a:visited, a:active, a:focus {
 body {
     background-color: #cbd3da;
 }
+
 .headerTop {
-    background: url("../img/pen.jpg") no-repeat 46% 80%;
+    background: url("../img/pen.jpg") no-repeat 59% 85%;
+    background-size: 30%;
 }
 .logo {
-    width: 33.33%;
-    text-align: center;
+    width: 25%;
     padding: 10px 0;
 }
-.topBox {
-    width: 66.66%;
-    text-align: center;
-    font-size: 7em;
+.titleTop {
+    width: 50%;
+    font-size: 8em;
+}
+.titleTop p {
+    margin-top: -5px;
+}
+.logo2 {
+    width: 25%;
     padding: 10px 0;
 }
 
-.titleTop {
-    padding-right: 20px;
-}
 .dropdown:hover .dropdown-menu {
     display:block;
     margin:0;

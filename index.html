@@ -11,6 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
@@ -43,7 +46,7 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Team</a>
+                            <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Goal</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Option 1</a>
                                 <a class="dropdown-item" href="#">Option 2</a>
@@ -51,7 +54,7 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Status</a>
+                            <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV templates</a>
                             <div class="dropdown-menu" id="drop-down-move" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Option 1</a>
                                 <a class="dropdown-item" href="#">Option 2</a>
@@ -60,7 +63,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Services</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Option 1</a>
+                                <a class="dropdown-item" href="#">Contact Us</a>
                                 <a class="dropdown-item" href="#">Option 2</a>
                             </div>
                         </li>
@@ -76,15 +79,118 @@
 </header>
 
 <main>
-    <section>
+    <section class="container d-flex">
+        <aside class="goalsContactSkills ">
+            <div class="goals">
+                <h3 class="p-3 text-center">Our goal</h3>
+                <h4 class="p-2 pt-0">
+                    Our goal is to provide our users with application that will help them make their CV from our design library and fill it with their data and download their personal CV in PDF format ready for Web use and print.
+                </h4>
+            </div>
+            <div class="goals">
+                <h5>
+                    Our goal is to provide our users with application that will help them make their CV from our design library and fill it with their data and download their personal CV in PDF format ready for Web use and print.
+                </h5>
+            </div>
+            <div class="goals">
+                <h5>
+                    Our goal is to provide our users with application that will help them make their CV from our design library and fill it with their data and download their personal CV in PDF format ready for Web use and print.
+                </h5>
+            </div>
+        </aside>
+
+        <div class="testimonialsPricing d-flex flex-column">
+            <div class="container">
+                <div class="inputForm p-3">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Example select</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2">Example multiple select</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="pricing">
+                    aaaa
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="myFooter">
         <div class="container">
             <div class="row">
-                <div class="">
-
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook-official"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2019 Copyright Text </p>
+        </div>
+    </footer>
+    <!-- ./Footer -->
 </main>
 
 

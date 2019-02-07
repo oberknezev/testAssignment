@@ -116,7 +116,9 @@ body {
     display: inline-block;
 }
 
-
+.inputForm h4 {
+    text-align: center;
+}
 
 
 

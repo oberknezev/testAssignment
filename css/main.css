@@ -24,19 +24,23 @@ body {
 }
 
 .headerTop {
-    background: url("../img/pen.jpg") no-repeat 59% 85%;
-    background-size: 30%;
+    background: url("../img/pen.jpg") no-repeat 58% 85%;
+    background-size: 33%;
 }
 .logo {
     width: 25%;
     padding: 10px 0;
 }
-.titleTop {
+.titleTop{
     width: 50%;
-    font-size: 8em;
 }
-.titleTop p {
-    margin-top: -5px;
+.titleTop h1 {
+    font-size: 8em;
+    text-shadow: 2px 1px 20px black;
+    text-align: right;
+}
+.titleTop h1 {
+    padding-top: 10px;
 }
 .logo2 {
     width: 25%;

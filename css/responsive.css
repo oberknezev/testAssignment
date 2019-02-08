@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1200px) {
     .headerTop {
-        background: url("../img/pen.jpg") no-repeat 54% 85%;
-        background-size: 36%;
+        background: url("../img/pen.jpg") no-repeat 53% 85%;
+        background-size: 37%;
     }
 
 }
@@ -9,25 +9,25 @@
 @media only screen and (max-width: 991px) {
     .headerTop {
         background: url("../img/pen.jpg") no-repeat 56% 80%;
-        background-size: 40%;
+        background-size: 42%;
     }
     .logo {
         text-align: center;
         padding: 10px 0;
     }
-    .titleTop {
+    .titleTop h1{
         font-size: 6.5em;
-        padding-top: 20px;
-        padding-left: 55px;
+        padding-top: 30px;
+        padding-left: 50px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .headerTop {
         background: url("../img/pen.jpg") no-repeat 57% 80%;
         background-size: 35%;
     }
-    .titleTop {
+    .titleTop h1{
         text-align: center;
         font-size: 4em;
         font-weight: 500;
@@ -37,16 +37,39 @@
     .hero img {
         width: 80%;
     }
+    .goals {
+        width: 100%;
+    }
+    .skills {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 576px) {
     .headerTop {
-        background: url("../img/pen.jpg") no-repeat 50% 80%;
+        background: url("../img/pen.jpg") no-repeat 50% 85%;
         background-size: 35%;
     }
-    .titleTop {
+    .titleTop h1{
         font-weight: 500;
-        padding-top: 15px;
+        padding-top: 20px;
         padding-left: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 476px) {
+    .headerTop {
+        background: url("../img/pen.jpg") no-repeat 55% 85%;
+        background-size: 35%;
+    }
+    .titleTop h1{
+        font-size: 3em;
+        padding-top: 20px;
+        padding-left: 40px;
+        text-align: center;
     }
 }

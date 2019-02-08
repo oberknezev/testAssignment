@@ -37,15 +37,16 @@
     .hero img {
         width: 80%;
     }
-    .goals {
+    .goalsContactSkills{
         width: 100%;
     }
-    .skills {
+    .testimonialsPricing {
         width: 100%;
     }
-    .contact {
-        width: 100%;
+    main > section {
+        display: block;
     }
+
 }
 
 @media only screen and (max-width: 576px) {

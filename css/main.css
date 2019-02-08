@@ -108,6 +108,9 @@ body {
 .dropdown-menu a:active {
     background-color: lightgray;
 }
+main > section {
+    display: flex;
+}
 .goals h4 {
     text-align: center;
 }

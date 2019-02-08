@@ -127,7 +127,9 @@ main > section {
     text-align: center;
 }
 
-
+.carousel {
+    border: 1px solid lightgray;
+}
 
 
 #myFooter {

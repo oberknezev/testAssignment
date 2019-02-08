@@ -115,6 +115,9 @@ main > section {
 .goals, .testimonials {
     text-align: center;
 }
+.goals h3, .testimonials h3 {
+    text-decoration: underline;
+}
 .goalsContactSkills {
     width: 33.33%;
     display: inline-block;
@@ -134,7 +137,9 @@ main > section {
 .carousel {
     border: 1px solid lightgray;
 }
-
+.pricing {
+    text-align: center;
+}
 
 #myFooter {
     background-color: #2a8dbf;

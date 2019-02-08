@@ -110,8 +110,9 @@ body {
 }
 main > section {
     display: flex;
+    color: #333;
 }
-.goals h4 {
+.goals, .testimonials {
     text-align: center;
 }
 .goalsContactSkills {
@@ -121,6 +122,9 @@ main > section {
 .testimonialsPricing {
     width: 66.66%;
     display: inline-block;
+}
+.testimonials img {
+    /*width: 30%;*/
 }
 
 .inputForm h4 {
